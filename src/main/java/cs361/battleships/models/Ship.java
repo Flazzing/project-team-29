@@ -41,7 +41,7 @@ public class Ship {
 				this.size = 4;
 				this.health = 4;
 		}
-		ship.setName(kind);
+		setName(kind);
 		occupiedSquares = new ArrayList<>();
 		}
 
