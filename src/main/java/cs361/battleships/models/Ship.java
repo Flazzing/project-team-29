@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class Ship {
 
 	@JsonProperty private List<Square> occupiedSquares;
+
 	private String shipType;
 
 	public Ship(){
@@ -134,5 +135,13 @@ public class Ship {
 
 	public List<Square> getOccupiedSquares() {
 		return this.occupiedSquares;
+	}
+
+	public void setShipType(String shipType1){
+		this.shipType = shipType1;
+	}
+
+	public String getShipType(){
+		return this.shipType;
 	}
 }
