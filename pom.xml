@@ -8,7 +8,7 @@
     <!-- replace "jar" with "war" and -->
     <!-- comment ninja-standalone dependency and  -->
     <!-- uncomment the dependency for ninja-servlet -->
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <groupId>cs361</groupId>
     <version>0.1-SNAPSHOT</version>
 
@@ -172,18 +172,19 @@
         <!-- If you want to deploy to a war please -->
         <!-- comment ninja-standalone dependency and  -->
         <!-- uncomment the dependency for ninja-servlet -->
-        <!--
+
         <dependency>
             <groupId>org.ninjaframework</groupId>
             <artifactId>ninja-servlet</artifactId>
             <version>${ninja.version}</version>
         </dependency>
-        -->
+      <!--
         <dependency>
             <groupId>org.ninjaframework</groupId>
             <artifactId>ninja-standalone</artifactId>
             <version>${ninja.version}</version>
         </dependency>
+        -->
         <dependency>
             <groupId>org.ninjaframework</groupId>
             <artifactId>ninja-test-utilities</artifactId>
