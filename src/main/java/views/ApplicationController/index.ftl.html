@@ -4,10 +4,9 @@
 
 <h1>Battleship</h1>
 
-
 <div class ="infobox">
     
-    <p> Click to Place </p>
+    <h2> Click to Place </h2>
 
     <ul>
         <li><button id="place_minesweeper">Place Minesweeper</button></li>
@@ -21,13 +20,21 @@
 
 </div>
 
-
 <table id="opponent" class="battleGrid">
 </table>
 
 <table id="player" class="battleGrid">
 </table>
 
+
+<div id="modal-backdrop" class="hidden"></div>
+
+<div id="modal" class ="hidden">
+    <h1> How To Play</h1>
+    <p> To Start: Place one of each ship</p>
+    <p> To Play: Click the opponent's board to fire your cannons!</p>
+    <p> To Win: Sink all your opponent's ships!</p>
+</div>
 
 
 <script type="text/javascript" src="/assets/game.js"></script>

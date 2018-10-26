@@ -143,3 +143,23 @@ function initGame() {
         game = data;
     });
 };
+
+var instructions_button;
+instructions_button = document.getElementById("instructions");
+var modalbackdrop;
+modalbackdrop = document.getElementById("modal-backdrop");
+var modal;
+modal = document.getElementById("modal");
+
+function show_instructions() {
+  modal.classList.remove("hidden");
+  modalbackdrop.classList.remove("hidden");
+}
+
+function hide_instructions() {
+  modal.classList.add("hidden");
+  modalbackdrop.classList.add("hidden");
+}
+
+instructions_button.addEventListener("click", show_instructions);
+modalbackdrop.addEventListener("click", hide_instructions)
