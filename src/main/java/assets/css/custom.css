@@ -5,15 +5,15 @@ body{
     background-image: url("Artboard%201.png");
 }
 
-div{
+h1{
     margin: 0px;
-    padding-left: 400px;
+    text-align:center;
 }
-
 
 .battleGrid {
     border: 1px solid black;
     border-spacing: 0px;
+    width:100%;
 }
 
 .battleGrid tr {
@@ -51,9 +51,11 @@ td:hover {
 }
 
 .infobox {
+    padding:0;
     border-style: solid;
     display: inline-block;
     text-align: center;
+    padding: 5px;
 }
 
 .centered {
@@ -74,3 +76,19 @@ li {
 #instructions {
     margin-bottom: 10px;
 }
+.opBoard{
+    text-align:center;
+    padding:5px;
+}
+.plBoard{
+    text-align:center;
+    padding:5px;
+}
+.playBox {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin=0;
+    padding=0;
+}
+

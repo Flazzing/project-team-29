@@ -4,7 +4,7 @@
 
 <h1>Battleship</h1>
 
-
+<div class="playBox">
 <div class ="infobox">
     
     <p> Click to Place </p>
@@ -18,18 +18,21 @@
 
     <button id="instructions">Instructions</button>
 
+</div>
 
+<div class="plBoard">
+    <h3> Player Board </h3>
+    <table id="player" class="battleGrid">
+    </table>
+</div>
+<div class="opBoard">
+    <h3> Computer Board </h3>
+    <table id="opponent" class="battleGrid">
+    </table>
 </div>
 
 
-<table id="opponent" class="battleGrid">
-</table>
-
-<table id="player" class="battleGrid">
-</table>
-
-
-
+</div>
 <script type="text/javascript" src="/assets/game.js"></script>
 <script>
     initGame();
