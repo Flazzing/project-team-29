@@ -3,17 +3,30 @@
 
 body{
     background-image: url("Artboard%201.png");
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 div{
-    margin: 0px;
-    padding-left: 400px;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    overflow: auto;
 }
 
+#opponent {
+
+}
 
 .battleGrid {
     border: 1px solid black;
     border-spacing: 0px;
+    width: 30%;
+    margin: 15px;
+    float: right;
 }
 
 .battleGrid tr {
@@ -52,8 +65,11 @@ td:hover {
 
 .infobox {
     border-style: solid;
+    width: 30%;
     display: inline-block;
     text-align: center;
+    float: left;
+    margin: 15px;
 }
 
 .centered {
