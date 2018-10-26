@@ -4,18 +4,31 @@
 
 <h1>Battleship</h1>
 
+
+<div class ="infobox">
+    
+    <p> Click to Place </p>
+
+    <ul>
+        <li><button id="place_minesweeper">Place Minesweeper</button></li>
+        <li><button id="place_destroyer">Place Destroyer</button></li>
+        <li><button id="place_battleship">Place Battleship</button></li>
+        <li><input type="checkbox" id="is_vertical">Vertical Placement</input></li>
+    </ul>
+
+    <button id="instructions">Instructions</button>
+
+
+</div>
+
+
 <table id="opponent" class="battleGrid">
 </table>
 
 <table id="player" class="battleGrid">
 </table>
 
-<ul>
-    <li><button id="place_minesweeper">Place Minesweeper</button></li>
-    <li><button id="place_destroyer">Place Destroyer</button></li>
-    <li><button id="place_battleship">Place Battleship</button></li>
-    <li><input type="checkbox" id="is_vertical">Vertical</input></li>
-</ul>
+
 
 <script type="text/javascript" src="/assets/game.js"></script>
 <script>
