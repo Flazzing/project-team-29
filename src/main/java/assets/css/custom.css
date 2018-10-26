@@ -1,6 +1,16 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
 
+body{
+    background-image: url("Artboard%201.png");
+}
+
+div{
+    margin: 0px;
+    padding-left: 400px;
+}
+
+
 .battleGrid {
     border: 1px solid black;
     border-spacing: 0px;
