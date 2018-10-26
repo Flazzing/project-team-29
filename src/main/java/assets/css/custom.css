@@ -15,28 +15,15 @@ body{
     margin: 0;
 }
 
-h1 {
-    text-align: center;
-
-}
-
-div{
-    margin: auto;
-    width: 70%;
-    padding: 10px;
-    overflow: auto;
-}
-
-#opponent {
-
+h1{
+    margin: 0px;
+    text-align:center;
 }
 
 .battleGrid {
     border: 1px solid black;
     border-spacing: 0px;
-    width: 30%;
-    margin: 15px;
-    float: right;
+    width:100%;
 }
 
 .battleGrid tr {
@@ -75,11 +62,9 @@ td:hover {
 
 .infobox {
     border-style: solid;
-    width: 30%;
     display: inline-block;
     text-align: center;
-    float: left;
-    margin: 15px;
+    padding: 5px;
 }
 
 .centered {
@@ -100,7 +85,21 @@ li {
 #instructions {
     margin-bottom: 10px;
 }
-
+.opBoard{
+    text-align:center;
+    padding:5px;
+}
+.plBoard{
+    text-align:center;
+    padding:5px;
+}
+.playBox {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin=0;
+    padding=0;
+}
 
 #modal-backdrop {
   position: fixed;
