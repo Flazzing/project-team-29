@@ -39,3 +39,28 @@ td:hover {
 .miss {
     background-color: blue;
 }
+
+.infobox {
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+}
+
+.centered {
+
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+li {
+    padding: 10px;
+}
+
+#instructions {
+    margin-bottom: 10px;
+}
