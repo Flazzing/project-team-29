@@ -3,6 +3,13 @@
 
 body{
     background-image: url("Artboard%201.png");
+    background-size: auto;
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div{
