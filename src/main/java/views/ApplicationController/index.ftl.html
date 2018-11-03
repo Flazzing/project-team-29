@@ -4,19 +4,48 @@
 
 <h1>Battleship</h1>
 
-<table id="opponent" class="battleGrid">
-</table>
 
-<table id="player" class="battleGrid">
-</table>
+<div class="playBox">
 
-<ul>
-    <li><button id="place_minesweeper">Place Minesweeper</button></li>
-    <li><button id="place_destroyer">Place Destroyer</button></li>
-    <li><button id="place_battleship">Place Battleship</button></li>
-    <li><input type="checkbox" id="is_vertical">Vertical</input></li>
-</ul>
+<div class ="infobox">
+    
+    <h2> Click to Place </h2>
 
+    <ul>
+        <li><button id="place_minesweeper">Place Minesweeper</button></li>
+        <li><button id="place_destroyer">Place Destroyer</button></li>
+        <li><button id="place_battleship">Place Battleship</button></li>
+        <li><input type="checkbox" id="is_vertical">Vertical Placement</input></li>
+    </ul>
+
+    <button id="instructions">Instructions</button>
+
+</div>
+
+
+<div class="plBoard">
+    <h3> Player Board </h3>
+    <table id="player" class="battleGrid">
+    </table>
+</div>
+<div class="opBoard">
+    <h3> Computer Board </h3>
+    <table id="opponent" class="battleGrid">
+    </table>
+</div>
+
+
+<div id="modal-backdrop" class="hidden"></div>
+
+<div id="modal" class ="hidden">
+    <h1> How To Play</h1>
+    <p> To Start: Place one of each ship</p>
+    <p> To Play: Click the opponent's board to fire your cannons!</p>
+    <p> To Win: Sink all your opponent's ships!</p>
+</div>
+
+
+</div>
 <script type="text/javascript" src="/assets/game.js"></script>
 <script>
     initGame();

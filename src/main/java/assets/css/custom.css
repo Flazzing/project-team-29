@@ -3,17 +3,27 @@
 
 body{
     background-image: url("Artboard%201.png");
+
+    background-size: auto;
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin: 0;
 }
 
-div{
+h1{
     margin: 0px;
-    padding-left: 400px;
+    text-align:center;
 }
-
 
 .battleGrid {
     border: 1px solid black;
     border-spacing: 0px;
+    width:100%;
 }
 
 .battleGrid tr {
@@ -48,4 +58,76 @@ td:hover {
 
 .miss {
     background-color: blue;
+}
+
+.infobox {
+    border-style: solid;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.centered {
+
+}
+
+ul {
+    list-style: none;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+li {
+    padding: 10px;
+}
+
+#instructions {
+    margin-bottom: 10px;
+}
+.opBoard{
+    text-align:center;
+    padding:5px;
+}
+.plBoard{
+    text-align:center;
+    padding:5px;
+}
+.playBox {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin=0;
+    padding=0;
+}
+
+#modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  width: 100%;
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1010;
+  height: 50%;
+  width: 40%;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5%;
+  font-size: 20pt;
+}
+
+.hidden {
+  display: none;
 }
